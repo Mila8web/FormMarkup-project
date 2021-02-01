@@ -14,13 +14,14 @@
 }
 
 /* Общие стили */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: "RobotoRegular";
 }
 
@@ -32,12 +33,15 @@ textarea:hover {
 a:link {
     color: red;
 }
+
 a:visited {
     color: rgb(6, 247, 58);
 }
+
 a:hover {
     color: rgb(8, 8, 236);
 }
+
 a:active {
     color: rgb(236, 183, 6);
 }
@@ -61,12 +65,10 @@ body::before {
     background: #002855;
     background-size: cover;
     opacity: 50%;
-    z-index: 0;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    
 }
 
 .header {
@@ -74,12 +76,11 @@ body::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+}
 
 .wrapper {
     width: 920px;
     background: white;
-    overflow: inherit;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -107,6 +108,7 @@ body::before {
     top: -19px;
     left: 50%;
     transform: translatex(-50%);
+    border: none;
 }
 
 .header__button::after {
@@ -162,23 +164,25 @@ body::before {
 .header__title::after {
     position: absolute;
     content: "";
-    width: 82px;
-    height: 9px;
+    width: 80px;
+    height: 8px;
     background-image: url(../assets/images/WavyLine.png);
     background-size: cover;
     top: -64px;
-    left: 210px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header__title::before {
     position: absolute;
     content: "";
-    width: 82px;
-    height: 9px;
+    width: 80px;
+    height: 8px;
     background-image: url(../assets/images/WavyLine.png);
     background-size: cover;
     bottom: -30px;
-    left: 210px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .information {
