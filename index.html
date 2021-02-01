@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="assets/fonts.css">
+
+    <!-- Сюда подключаем стили -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__button">
+                <button class="header__btn"></button>
+            </div>
+            <div class="header__breadcrumb">
+                <ul class="breadcrumb__list">
+                    <li class="breadcrumb__item"><a class="breadcrumb__link" href="https://puzzleweb.ru/">Главная</a></li>
+                    <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">Контакты</a></li>
+                    <li class="breadcrumb__item active">Форма обратной связи</li>
+                </ul>
+            </div>
+            <h1 class="header__title">Форма обратной связи</h1>
+        </header>
+
+        <section class="information">
+            <form class="information__form" autocomplete="on">
+                <input class="information__input" type="text" value="Иванов Иван Иванович"><br>
+                <input class="information__input" type="text" value="Введите Ваш Email"><br>
+                <input class="information__input" type="text" value="Введите Ваш телефон"><br>
+                <textarea class="information__textarea" name="" id="" cols="30" rows="10">Введите Ваш телефон</textarea>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <input class="footer__input" type="text">
+            <p>Введите код на картинке справа</p>
+            <button class="footer__btn">Отправить</button>
+        </footer>
+    </div>
+
+</body>
+
+</html>
